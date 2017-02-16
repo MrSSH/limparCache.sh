@@ -92,10 +92,8 @@ case $opcao in
   detalhesusers;;
  13)
   banner;;
-  13.1)
-  apt-get install htop -y
-  clear
-  htop
+ 13.1)
+  htop;;
  14)
   speedtest;;
  15)
