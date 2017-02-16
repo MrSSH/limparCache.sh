@@ -15,3 +15,5 @@ service ssh restart & service squid3 restart
 clear
 
 echo -e "\033[01;31mLimpeza do Cache e Swap concluida\033[0m"
+
+echo -e "\033[01;31mSCRIPT BY: @MrCoppens\033[0m"
