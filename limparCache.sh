@@ -1,5 +1,5 @@
 # limparCache.sh
-
+#!/bin/bash
 cat -n /etc/issue |grep 1 |cut -d' ' -f6,7,8 |sed 's/1//' |sed 's/      //' > /etc/so
 echo -e "\033[1;31mPARA LIMPAR O CACHE DE UM ENTER!\033[0m"
 read -p "" ip
